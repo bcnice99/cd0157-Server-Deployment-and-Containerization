@@ -1,8 +1,2 @@
 This is a new file
 
-Reading package lists...
-W: GPG error: https://apt.corretto.aws stable InRelease: The following signatures were invalid: EXPKEYSIG A122542AB04F24E3 Amazon Services LLC (Amazon Corretto release) <corretto-team@amazon.com>
-E: The repository 'https://apt.corretto.aws stable InRelease' is not signed.
-[Container] 2025/01/07 00:36:16.709906 Command did not exit successfully apt-get update && apt-get -y install jq  && pip install --upgrade awscli pytest exit status 100
-[Container] 2025/01/07 00:36:16.746992 Phase complete: INSTALL State: FAILED
-[Container] 2025/01/07 00:36:16.747008 Phase context status code: COMMAND_EXECUTION_ERROR Message: Error while executing command: apt-get update && apt-get -y install jq  && pip install --upgrade awscli pytest. Reason: exit status 100
